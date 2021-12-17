@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href="codingbeasts.css">
+    <link rel="icon" href="https://bl6pap003files.storage.live.com/y4mszx-AiwW6jXv9IerZfjbTrib2gZS5SBHSyeLJulxJtBEQtVGsk864dio_0jRK_bFKhJCFBixpKS_GlIDnS4GzgOKCKRMmtxvalHVjBZ3MirSTz--w48uChCysAZkHtUI5FSjcHqQBmBZ73u1-swwmW42LVRRZTdJl4y-rCwXCjjmlGpRc0p7u6m8qw8ZD8XL?width=16&height=16&cropmode=none">
+</head>
+
+<body>
+
+    <nav class="navbar border-nav navbar-expand-lg navbar-dark bg-dark">
+        <img class="logo m-3" src="https://bl6pap003files.storage.live.com/y4mru5HrWe0G3vwhZGxHHR4CChRzeEbVDgM47kMp_4ijvoRleGkaI23bYVfu-g937b508AgyXmiHNXfIeSR9yxw4RAzcebUu8-ADnJBEtCBjy32OCj4rhUrQ1DEQoJPhBsLeZTdQov9ymDWdsqVDchWULg6y35hIRuxHZcNkz_b-6vAA4WS3e4aBGxYKvvnVjAY?width=256&height=153&cropmode=none" width="160" height="100" />
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="text-light navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto m-3 p-2">
+                <button class="nav-item nav-link a-ele active m-lg-1" onclick="display('section-home')"><i class="fas fa-home m-2"></i>
+                    <p class="a-ele">Home</p>
+                </button>
+                <button class="nav-item nav-link a-ele active m-lg-1" onclick="display('section-project')"><i class="far fa-lightbulb m-2"></i>
+                    <p class="a-ele">Projects</p>
+                </button>
+                <button class="nav-item nav-link a-ele active m-lg-1" onclick="display('section-about')"><i class="fas fa-users m-2"></i>
+                    <p class="a-ele">About Us</p>
+                </button>
+                <button class="nav-item nav-link a-ele active m-lg-1" onclick="display('section-feedback')"><i class="fas fa-tasks m-2"></i>
+                    <p class="a-ele">Feedback</p>
+                </button>
+                <button class="nav-item nav-link a-ele active m-lg-1" onclick="display('section-contact')">
+                    <btn class="Contact-us"><i class="fas fa-phone-square-alt m-2"></i>
+                        <p class="a-ele a-ele-btn">Contact us</p>
+                    </btn>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div id="section-home" style="overflow:hidden">
+        <div class='d-flex flex-row bg-warning'>
+            <div class=" home-main  d-flex flex-column justify-content-start">
+                <span class="home-main-text">CodingBeasts</span>
+                <h3 class="home-side-text">Where expectaions <br /> meet excellence</h3>
+            </div>
+            <img class="image" src="https://bl6pap003files.storage.live.com/y4mjd2vLIY6SatkCMVG7FnXPJehVdlF0gFrCkyQnww7PRty5tO0qCNIlc4ivgGPDHUI3Io6SnD9bd5fHHwqeMSteXxQMQHYCjNsjp7irmmvOl1GjxY7NerC9gZaDWSs4jU_-TGwKqOPfsmlDXPGgiSaMtATSKveA8wjHll5djUObiMtC93SSGBXWE7iKER7syA2?width=1024&height=1024&cropmode=none" width="500" height="500" />
+        </div>
+    </div>
+
+    <div id="section-project" class="section-project bg-warning">
+        <div class="d-flex flex-row justify-content-center">
+            <div class="cards-container d-flex flex-column justify-content-center m-5">
+                <div class="d-flex flex-row">
+                    <div class="card bg-light shadow-lg m-5">
+                        <h1 class="project-heading text-dark">Motion Sensor Security Camera</h1>
+                        <p class="project-content">
+                            Motion sensor camera can be used for security purposes in various
+                            applications like Crime Investigation and Mitigation,Disaster Management
+                            and many other applications, by keeping track of <button class="card-btn">more...</button>
+                        </p>
+                    </div>
+
+                    <div class="card bg-light shadow-lg m-5">
+                        <h1 class="project-heading text-dark">Motion Sensor Security Camera</h1>
+                        <p class="project-content">
+                            Motion sensor camera can be used for security purposes in various
+                            applications like Crime Investigation and Mitigation,Disaster Management
+                            and many other applications, by keeping track of <button class="card-btn">more...</button>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-row">
+                    <div class="card bg-light shadow-lg m-5">
+                        <h1 class="project-heading text-dark">Motion Sensor Security Camera</h1>
+                        <p class="project-content">
+                            Motion sensor camera can be used for security purposes in various
+                            applications like Crime Investigation and Mitigation,Disaster Management
+                            and many other applications, by keeping track of <button class="card-btn">more...</button>
+                        </p>
+                    </div>
+
+                    <div class="card bg-light shadow-lg m-5">
+                        <h1 class="project-heading text-dark">Motion Sensor Security Camera</h1>
+                        <p class="project-content">
+                            Motion sensor camera can be used for security purposes in various
+                            applications like Crime Investigation and Mitigation,Disaster Management
+                            and many other applications, by keeping track of <button class="card-btn">more...</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section-about" class="section-about bg-warning">
+        <div class="profile-card-container d-flex flex-row justify-content-around">
+            <div class="profile-card bg-dark text-white">
+                <h3 class="profile-card-header" style="background-color: #ff004c">Srujan Landeri</h3>
+                <p class="profile-card-content">Hey I'm Srujan. I am currently persuing diploma in Computer Science and Engineering at Government institute of electronics, Secuderabad. I am self motivated and harworking guy. who is always intrested to learn new things and help out people with techincal stuff I always work with my full capacity and give best of mine</p>
+            </div>
+            <div class="profile-card bg-dark text-white">
+                <h3 class="profile-card-header" style="background-color: #15aad4">Alle Karthik</h3>
+                <p class="profile-card-content short-text">Hii. I am Karthik Alle studying in diploma , Hyderabad.I am student of computer science .I am good at implementing complex problems in much simliar way and I apply the same concept in programming and make it easy. I am always free for any HELP! and happy to clear you doubts</p>
+            </div>
+            <div class="profile-card bg-dark text-white">
+                <h3 class="profile-card-header" style="background-color: #ff5c58">Pushkal Boppana</h3>
+                <p class="profile-card-content">Hey, I am Pushkal. I am in the final year of my Diploma in Computer Engineering. I wish to learn new things and discover new coding systems and like to build creative projects by what I learned and I am happy that I love to work with the skills I acquired and contribute my work to help others in collaboration with my team.</p>
+            </div>
+        </div>
+
+        <div class="profile-card-container-b d-flex flex-row justify-content-around">
+
+            <div class="profile-card bg-dark text-white">
+                <h3 class="profile-card-header" style="background-color: #fc0398">Sushanthi Devaraju</h3>
+                <p class="profile-card-content">Hello I'm sushanthi , a student from Government institute of electronics - secunderabad , currently studying Diploma final year in Computer engineering . I use creative approach to reach for a problem solution, and I'm always energetic and eager to learn new things. I am very excited to work in this project as I can use my theoretical and practical knowledge and learn new things!.. </p>
+            </div>
+
+            <div class="profile-card bg-dark text-white">
+                <h3 class="profile-card-header" style="background-color: #aa00ff">Nallagatla Akshay</h3>
+                <p class="profile-card-content">Hello everyone.. I am Akshay studying in Comper Science branch at Government Institute of Electronics . I am always interested to solve puzzles and riddles andstarted to code I just loved it because coding is nothing but solving a puzzle. I am enthusiastic to solve any type of problem and try to give an efficient solution and <span class="special-text">MAKE THINGS EASIER</span></p>
+            </div>
+
+            <div class="profile-card bg-dark text-white">
+                <h3 class="profile-card-header " style="background-color: #1ee61e">Kurimelly Vikas</h3>
+                <p class="profile-card-content short-text">My name is Kurimelly Vikas studying in final year diploma in computer science branch. I am currently learning a trending and famous languages <span class="special-text">python and java</span>. I like to make build small projects by what I learned and I am happy that I am able to contribute my work for my academic project</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="section-feedback" class="section-feedback bg-warning">
+        <div class="d-flex flex-column justify-content-center h-100">
+            <div class="d-flex flex-row justify-content-around">
+                <div class="feedback-content">
+                    hi
+                </div>
+
+                <div class="feedback-form-container">
+                    <form id="inputForm" class="d-flex flex-column justify-content-center bg-light text-dark feedback-form" action="https://formspree.io/f/moqrqynp" method="POST">
+                        <h1 class="form-main-heading text-dark mb-3">Feedback Form</h1>
+
+                        <div class="d-flex flex-row justify-content-start">
+                            <div class="d-flex flex-column mr-1">
+                                <p class="form-heading ">First Name</p>
+                                <input class=" form-control input" type="text" placeholder="Enter Your First Name" name="FirstName">
+                            </div>
+
+                            <div class="d-flex flex-column ml-1">
+                                <p class="form-heading">Last Name</p>
+                                <input class=" form-control input" type="text" placeholder="Enter Your Last Name" name="LastName">
+                            </div>
+                        </div>
+
+                        <p class="form-heading">Email</p>
+                        <input class=" form-control input" type="email" placeholder="mailId@gmail.com" name="_replyto">
+
+                        <p class="form-heading">Your Feedback </p>
+                        <textarea class="text-input textarea form-control" placeholder="Please give us your valuable Feedback" rows="5" name="Message"></textarea>
+
+                        <!-- your other form fields go here -->
+                        <button class="btn" type="submit">Send</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script src = "codingbeasts.js"></script>
+</body>
+
+</html>

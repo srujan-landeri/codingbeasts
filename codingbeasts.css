@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Montserrat:wght@100&family=Saira+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Fuzzy+Bubbles&family=Montserrat:wght@100&family=Saira+Condensed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Fuzzy+Bubbles&family=Montserrat:wght@100&family=Saira+Condensed:wght@600&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Fuzzy+Bubbles&family=Montserrat:wght@100&family=Roboto:wght@100&family=Saira+Condensed:wght@600&family=Ubuntu:wght@300&display=swap');
+
+.logo {
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+}
+
+.border-nav {
+    border-bottom-color: #39C0ED;
+    border-bottom-width: 5px;
+    border-style: solid;
+}
+
+.a-ele {
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 900;
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+    border-style: none;
+    border-width: 0px;
+}
+
+.a-ele:hover {
+    color: #0088a9;
+}
+
+.a-ele-btn:hover {
+    color: #262626;
+}
+
+.Contact-us {
+    background-color: #0088a9;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    font-family: Montserrat;
+    font-weight: 900;
+    list-style: none;
+}
+
+.home-main {
+    height: 85vh;
+    display: flex;
+    width: 100vh;
+}
+
+.home-main-text {
+    margin: 150px 0px 0px 200px;
+    font-family: "Saira Condensed";
+    font-weight: bold;
+    font-size: 100px;
+    color: black;
+}
+
+.home-side-text {
+    margin: 0px 0px 0px 200px;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+
+.image {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.fixed-section {
+    position: fixed;
+}
+
+.section-project {
+    height: auto;
+    justify-content: center;
+}
+
+.card {
+    width: 60vh;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.project-heading {
+    font-family: "Saira Condensed";
+    text-align: center
+}
+
+.project-content {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.card-btn {
+    color: orange;
+    font-weight: bold;
+    background-color: transparent;
+    padding: 0;
+    border-width: 0;
+}
+
+.section-about {
+    height: 110vh;
+}
+
+.section-feedback {
+    height: 90vh;
+    width: 100%;
+}
+
+.section-contact {
+    height: 81vh;
+    width: 100%;
+}
+
+.profile-card-container {
+    padding: 40px;
+}
+
+.profile-card-container-b {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.profile-card {
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 50vh;
+    height: auto;
+}
+
+.profile-card-header {
+    font-family: Dosis;
+    margin: 6px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.short-text {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.special-text {
+    font-family: Ubuntu;
+    font-weight: 900;
+}
+
+.profile-card-content {
+    padding: 25px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.feedback-form-container {
+    display: inline-block;
+    width: 30%;
+}
+
+.feedback-form {
+    padding: 50px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.form-main-heading {
+    font-family: Dosis;
+}
+
+.form-heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.textarea {
+    resize: none;
+}
+
+.input .text-input {
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btn {
+    background-color: #0088a9;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    font-family: Montserrat;
+    font-weight: 900;
+    list-style: none;
+    margin: 30px 60px 0px 60px;
+}
+
+.section-thankyou {
+    height: 90vh;
+    width: 100%;
+}
+
+.thankyou-main-text {
+    margin: 100px 150px;
+}
